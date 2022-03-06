@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+          background-color: beige;
+         }
+
+
+        header {
+
+            display: inline-flex;
+            width: 600px;
+        }
+
+        #nav-bar {
+            text-align: right;
+            text-decoration: none;
+            width: 500px;
+            margin: auto;
+        }
+
+        .navlink {
+
+            width: 60px;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 20px;
+
+
+        }
+
+        #header-img {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .wrapper {
+            position: relative;
+
+
+        }
+
+        #card {
+            display: inline-flex;
+            padding: 25px;
+            margin: 30px;
+        }
+
+        .container1 {
+            border: 3px solid purple;
+            width: 200px;
+            height: 200px;
+
+            margin: 25px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color: lightskyblue;
+     }
+
+        .container2 {
+            width: 200px;
+            height: 200px;
+            border: 3px solid purple;
+
+            box-sizing: border-box;
+            margin: 25px;
+            border-radius: 10px;
+            background-color: lightskyblue;
+        }
+
+        .container3 {
+            border: 3px solid purple;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+
+            margin: 25px;
+            border-radius: 10px;
+            background-color: lightskyblue;
+
+
+        }
+
+        .details {
+
+            margin: 0px;
+            padding: 0px;
+            background-color: papayawhip;
+            border-radius: 5px;
+        }
+
+        #content {
+            text-transform: lowercase;
+            display: inline-block;
+            padding: 30px;}
+
+        #btn1 {
+
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            margin-left: 50px;
+            padding-right: 10px;
+            border-radius: 4px;
+            border: 2px solid purple;
+        }
+    
+
+        #footer {
+            background-color:  rgb(152, 191, 235);
+            font-size: 25px;
+            padding-top: 10px;
+
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            
+}
+
+        #video {
+            padding: 100px;
+            justify-content: center;
+
+
+            width: 700px;
+            height: 500px;
+
+            margin: auto;
+
+        }
+
+        #email {
+            padding-top: 50px;
+            width: 200px;
+
+            margin: auto;
+
+        }
+
+        .firstsection {
+            background-color:  rgb(152, 191, 235);
+            border: 3px solid purple;}
+
+        #companyname {
+            margin: 5px;
+            padding: 5px;
+
+        }
+
+        #form {
+
+            margin: 10px;
+
+        }
+
+        #info-section {
+            width: 15px;
+
+            margin: auto;
+
+
+
+
+        }
+
+        #submit {
+            margin: 10px;
+            border-radius: 5px;
+            border: 3px solid purple;
+            padding: 5px;
+
+
+
+
+        }
+
+        #email {
+            padding-top: 5px;
+
+            width: 229px;
+            height: -5px;
+
+
+
+        }
+
+        #info {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        aside {
+            width: 25%;
+            float: right;
+             display: block;
+        }
+
+        #side-img {
+            margin-top: 0px;
+            padding-top: 0px;
+            background: transparent;
+            border: 3px solid purple;}
+        #video{
+            width: 500px;
+            height: 300px;
+            border: 3px solid purple;
+            margin-left: 50px;
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="firstsection">
+            <header id="header">
+                <img src="logoimp.jpg" id="header-img">
+                <span id="companyname">IWATCH</span>
+                <nav id="nav-bar">
+                    <a href="#points" class="navlink">Product Features</a>
+                    <a href="#card" class="navlink">Product prices</a>
+                    <a href="#video" class="navlink">product clip</a>
+                </nav>
+        </div>
+        </header>
+        <div id="info-section">
+            <form action="" id="form">
+                <input type="email" name="" id="email" placeholder="Enter your email here">
+                <button id="submit" type="submit">Submit</button>
+            </form>
+
+        </div>
+        <div id="info">
+
+            <h1>Product details </h1>
+
+            <ul id="points" type="square">
+                <aside>
+                    <img id="side-img" src="img.jpg" alt="">
+                </aside>
+
+                <li>Sleep Pattern monitoring</li>
+                <li>Fall detection</li>
+                <li>Blood pressure monitoring</li>
+
+                <li>Heart Rate monitoring</li>
+                <li>Step counting</li>
+                <li>Fitness tracking</li>
+                <li>Spatial detection</li>
+
+
+            </ul>
+
+
+        </div>
+
+
+        <iframe id="video" src="https://www.youtube.com/embed/PQbtjzBCjv0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div id="card">
+            <div class="container1">
+                <h2 class="details">Digital Watch</h2>
+                <span id="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque optio
+                    iste.</span>
+                <button id="btn1">Select</button>
+            </div>
+            <div class="container2">
+                <h2 class="details">Analog Watch</h2>
+                <span id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque optio
+                    iste.</span>
+                <button id="btn1">Select</button>
+            </div>
+            <div class="container3">
+                <h2 class="details">Diving Watch</h2>
+
+                <span id="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit.Aut cumque optio
+                    iste.</span>
+                <button id="btn1">Select</button>
+            </div>
+
+        </div>
+        <div id="footer">
+            <footer id="end">
+                Mussafarariaz&nbsp;copyright,2022
+                IWATCH company
+            </footer>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
